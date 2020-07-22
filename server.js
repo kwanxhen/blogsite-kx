@@ -11,6 +11,7 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json()); //this is the equivalent of body-parser -> allows you to do req.body
+app.use(express.static("client/build"));
 
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, {
