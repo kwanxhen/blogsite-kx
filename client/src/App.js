@@ -1,25 +1,19 @@
 import React from "react";
 import "./App.css";
-import { Container, Row, Col, Grid } from 'react-bootstrap';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 //import React pages
-import Sidebar from "./components/SideBar";
-import Post from "./components/Post";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
   return (
-    <Container fluid>
-      <Row style={{marginTop: "50px"}}>
-        <Col lg={2} style={{}}>
-          <Sidebar />
-        </Col>
-        <Col lg={6} style={{marginLeft: "40px"}}>
-          <Post />
-          <Post />
-          <Post />
-        </Col>
-      </Row>
-    </Container>
+    <Router>
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/about" component={About} />
+      </Switch>
+    </Router>
   );
 }
 
