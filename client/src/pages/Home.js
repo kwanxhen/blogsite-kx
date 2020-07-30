@@ -5,6 +5,7 @@ import Sidebar from "../components/SideBar";
 import Post from "../components/Post";
 
 function Home() {
+
   return (
     <Container fluid>
       <Row style={{ marginTop: "50px" }}>
