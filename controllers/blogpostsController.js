@@ -17,13 +17,3 @@ module.exports = {
       .catch((err) => res.status(422).json(err));
   },
 };
-
-// Tank.create({ size: 'small' }, function (err, small) {
-//   if (err) return handleError(err);
-//   // saved!
-// });
-
-// {}, function (err, allblogposts) {
-// 	console.log(allblogposts);
-// 	return allblogposts;
-// }

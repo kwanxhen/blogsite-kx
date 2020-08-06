@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-//import components here
-import Sidebar from "../components/SideBar"
+import Sidebar from "../../components/SideBar"
+import Post1 from "../../components/FullPosts/Post1"
 
-function About() {
+function Post1Page() {
   return (
     <Container fluid>
       <Row style={{ marginTop: "50px" }}>
@@ -12,11 +12,11 @@ function About() {
           <Sidebar />
         </Col>
         <Col lg={6} style={{ marginLeft: "40px" }}>
-          <h1>This is Me!</h1>
+          <Post1 />
         </Col>
       </Row>
     </Container>
   );
 }
 
-export default About;
+export default Post1Page;

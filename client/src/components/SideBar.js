@@ -8,8 +8,6 @@ function createSideBlogTitle(blogTitle) {
   return <h6>{blogTitle.title}</h6>;
 }
 
-// let blogpostsTitle = [];
-
 function Sidebar() {
 
   const [blogpostTitles, setBlogpostTitles] = useState([]);

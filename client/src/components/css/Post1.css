@@ -1,0 +1,47 @@
+h1 {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.84);
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.84);
+  font-weight: bold;
+}
+
+p, li{
+  font-family: "Merriweather", serif;
+  color: #292929;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footerSpace {
+  margin-bottom: 8rem;
+}
+
+.bottomSpace {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dateAndTime {
+  font-family: Merriweather;
+  color: rgba(0,0,0,.54);
+}
+
+.blogTitle {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.84);
+}
