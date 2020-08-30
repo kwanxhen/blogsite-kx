@@ -34,7 +34,7 @@ function Sidebar() {
           rel="noopener noreferrer"
         >
           <img
-            src="https://instagram.fsin1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/83441816_498409914447348_5767187672467782_n.jpg?_nc_ht=instagram.fsin1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=TBAM5jFLhAUAX_WCCxA&oh=fec08dec8761a59c04a1a205466438d6&oe=5F3EA9E6"
+            src="kx-profile-pic.JPEG"
             alt="profile of kwanxhen"
             height="250"
             width="200"
